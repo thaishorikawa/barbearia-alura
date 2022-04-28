@@ -1,12 +1,12 @@
 header {
-    background-color: #BBBBBB;
-    padding: 0 20px;
+    background: #BBBBBB;
+    padding: 20px 0;
 }
 
 .caixa {
     position: relative;
     width: 940px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 nav {
@@ -15,15 +15,15 @@ nav {
     right: 0;
 }
 
-nav ul li {
+nav li {
     display: inline;
     margin: 0 0 0 15px;
 }
 
-nav ul li a {
+nav a {
     text-transform: uppercase;
     color: #000000;
-    font-weight: bold; 
+    font-weight: bold;
     font-size: 22px;
     text-decoration: none;
 }
@@ -61,7 +61,6 @@ nav a:hover {
 
 .produtos li:hover h2 {
     font-size: 34px;
-
 }
 
 .produtos h2 {
@@ -70,7 +69,7 @@ nav a:hover {
 }
 
 .produto-descricao {
-    font-size: 18px; 
+    font-size: 18px;
 }
 
 .produto-preco {
@@ -79,16 +78,16 @@ nav a:hover {
     margin-top: 10px;
 }
 
-.footer {
+footer {
     text-align: center;
     background: url("../img/bg.jpg");
     padding: 40px 0;
 }
 
 .copyright {
-   color: #FFFFFF;
-   font-size: 13px;
-   margin: 20px 0 0;
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
 
 main {
@@ -97,10 +96,11 @@ main {
 }
 
 form {
-    margin: 40px 0
+    margin: 40px 0;
 }
 
-form label, form legend {
+form label,
+form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
@@ -145,7 +145,43 @@ thead {
     font-weight: bold;
 }
 
-td, th {
+td,
+th {
     border: 1px solid #000000;
     padding: 8px 15px;
+}
+
+
+/* css da página inicial */
+.banner {
+    width: 100%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imagembeneficios {
+    width: 60%;
 }
